@@ -9,10 +9,10 @@ from drugprediction.models import PatientModel, DrugReviewModel
 from drugprediction.sentimentanalyzer import getCommentSentiment
 from drugprediction.service import loadData
 
-
+# Here we are working on the features and we have added a function to add the medicines in to the portal
 def adddrug(request):
     status = False
-
+    
     if request.method == "POST":
         # Get the posted form
         patientForm = PatientForm(request.POST)
