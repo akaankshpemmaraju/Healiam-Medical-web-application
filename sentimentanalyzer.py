@@ -15,7 +15,7 @@ def getCommentSentiment(cmnt):
     '''
     # create TextBlob object of passed tweet text
     analysis = TextBlob(cleanComment(cmnt))
-    # set sentiment
+    # set sentiment on the required analytics
     if analysis.sentiment.polarity > 0:
         return 'positive'
     elif analysis.sentiment.polarity == 0:
