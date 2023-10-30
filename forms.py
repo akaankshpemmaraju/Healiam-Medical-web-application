@@ -5,7 +5,6 @@ class DrugReview(Form):
     condition=CharField(max_length=500)
     review=CharField(max_length=5000)
 
-
 class PatientForm(Form):
     name=CharField(max_length=50)
     mobile=CharField(max_length=50)
