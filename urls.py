@@ -5,7 +5,6 @@ from django.views.generic import TemplateView
 
 from drugprediction.views import login, adddrug, postreview, getreviews, getdrugs, loaddataset, logout, getsentiment, \
     postreviewaction, viewdrug, viewreviews, patientlogin, viewsentiment, getconditions, getconditions1
-# paths are defined based on the no of features we are adding 
 urlpatterns = [
 
     path('admin/', admin.site.urls),
