@@ -8,7 +8,6 @@ from drugprediction.views import login, adddrug, postreview, getreviews, getdrug
 urlpatterns = [
 
     path('admin/', admin.site.urls),
-
     path('login/',TemplateView.as_view(template_name = 'index.html'),name='login'),
     path('loginaction/',login,name='login action'),
 
@@ -23,6 +22,7 @@ urlpatterns = [
 
     path('viewdrug/', viewdrug, name='view drug'),
     path('getdrugs/', getdrugs, name='get drugs'),
+    
 
     path('getconditions/', getconditions, name='get drugs'),
     path('getconditions1/', getconditions1, name='get drugs'),
