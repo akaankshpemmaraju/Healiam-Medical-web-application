@@ -9,7 +9,7 @@ class PatientForm(Form):
     name=CharField(max_length=50)
     mobile=CharField(max_length=50)
     drug=CharField(max_length=50)
-
+    
 class LoginForm(Form):
     username = CharField(max_length=100)
     password = CharField(widget=PasswordInput())
