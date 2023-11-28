@@ -4,7 +4,6 @@ from collections import OrderedDict
 from io import StringIO
 from enum import Enum
 
-# Common base class for FC
 class FusionCharts:
 
     baseTemplate = """
