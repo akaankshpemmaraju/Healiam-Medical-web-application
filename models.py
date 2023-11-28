@@ -1,7 +1,6 @@
 from django.db import models
 from django.db.models import Model
 
-
 class DrugReviewModel(Model):
     drugname=models.CharField(max_length=500)
     condition=models.CharField(max_length=500)
