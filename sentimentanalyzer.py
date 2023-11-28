@@ -22,4 +22,4 @@ def getCommentSentiment(cmnt):
     elif analysis.sentiment.polarity == 0:
         return 'neutral'
     else:
-        return 'negative'
+        return 'negation'
