@@ -42,7 +42,7 @@ class FusionCharts:
     def addMessage(self, messageName, messageValue):
         self.constructorOptions[messageName] = messageValue
 
-    # render the chart created
+    # render the chart created for the analysis purpose
     # It prints a script and calls the FusionCharts javascript render method of created chart   
     def render(self):
         
