@@ -1,6 +1,6 @@
-from django.apps import AppConfig
+from django apps import AppConfig
 
-class DrugpredictionConfig(AppConfig):
+class DrugpredictionConfig(AppConfig)
     
-    name = 'drugprediction'.
+    name = 'drugprediction'
     
