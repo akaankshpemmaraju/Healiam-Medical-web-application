@@ -14,5 +14,6 @@ def loadData():
            model.drugname=row[0]
            model.condition=row[1]
            model.review=row[2]
+#getting the comments for the sentiment
            model.sentiment=getCommentSentiment(row[2])
            model.save()
