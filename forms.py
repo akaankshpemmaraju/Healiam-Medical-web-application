@@ -1,5 +1,6 @@
 from django forms import Form CharField PasswordInput
 # defining variables 
+# clreating class for the drugreview
 class DrugReview(Form)
     drugname=CharField(max_length=500)
     condition=CharField(max_length=500)
