@@ -3,7 +3,7 @@ from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView
 
-from drugprediction.views import login, adddrug, postreview, getreviews, getdrugs, loaddataset, logout, getsentiment, \
+from drugprediction.views import login, adddrug, postreview, getreviews, getdrugs, loaddataset, logout, getsentiment, 
     postreviewaction, viewdrug, viewreviews, patientlogin, viewsentiment, getconditions, getconditions1
 urlpatterns = [
 
