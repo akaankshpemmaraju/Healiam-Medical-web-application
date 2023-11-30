@@ -4,7 +4,4 @@ class DrugResult
         self drugname=drugname
         self drugdetails=drugdetails
         self count=count
-self drugname=drugname
-        self drugdetails=drugdetails
-        self count=count
 
