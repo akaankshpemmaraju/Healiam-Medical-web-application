@@ -1,6 +1,10 @@
 from django.db import models
 from django.db.models import Model
-
+"""
+This model could be used to represent drug reviews in a Django application, 
+where each instance of the model corresponds to a specific review with associated 
+information such as the drug name, condition, review text, and sentiment.
+"""
 class DrugReviewModel(Model):
     drugname=models.CharField(max_length=500)
     condition=models.CharField(max_length=500)
