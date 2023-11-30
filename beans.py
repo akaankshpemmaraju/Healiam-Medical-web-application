@@ -1,4 +1,4 @@
-#Creating a class fo the required result
+#Creating a class for the required results.
 class DrugResult
     def __init__(self drugname count)
         self drugname=drugname
