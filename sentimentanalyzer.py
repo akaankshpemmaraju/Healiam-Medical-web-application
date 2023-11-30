@@ -10,7 +10,7 @@ def cleanComment(cmnt):
 
 def getCommentSentiment(cmnt):
     '''
-    Utility function to classify sentiment of passed tweets
+    Utility function will classify sentiment of passed tweets
     using textblob's sentiment method
     this helps in reducing complexity
     '''
