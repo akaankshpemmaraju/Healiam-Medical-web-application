@@ -52,7 +52,7 @@ class FusionCharts:
         if isinstance(self.timeSeriesObject, TimeSeries):
             self.readyJson = self.readyJson.replace("__TS__", self.timeSeriesObject.GetDataSource())
 
-        # Create Fusioncharts constructor from template and insert JSON data in it
+        # Create Fusioncharts constructor from templates and insert JSON data in it
         self.readyJson = FusionCharts.constructorTemplate.replace('__constructorOptions__', self.readyJson)
 
         # Iterate and attach EventHandler from template
