@@ -15,7 +15,7 @@ urlpatterns = [
     path('patientloginaction/',patientlogin,name='login action'),
 
     path('adddrug/',TemplateView.as_view(template_name = 'adddrug.html'),name='add drug'),
-    path('adddrugaction/',adddrug,name='add drug action'),
+    path('adddrugaction/',adddrug,name='add drug action')
 
     path('postreview/',postreview,name='post review'),
     path('postreviewaction/',postreviewaction,name='post review action'),
