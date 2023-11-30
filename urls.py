@@ -1,4 +1,7 @@
 
+#The code defines the URL patterns for the `drugprediction` app in Django, which is a web framework
+#for Python. The URL patterns map the URL paths to the views that handle the app logic and data.
+
 from django contrib import admin
 from django urls import path
 from django views generic import TemplateView
