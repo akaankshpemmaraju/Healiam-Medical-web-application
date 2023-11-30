@@ -2,6 +2,10 @@ import csv
 
 from drugprediction.models import DrugReviewModel
 from drugprediction.sentimentanalyzer import getCommentSentiment
+import csv
+
+from drugprediction.models import DrugReviewModel
+from drugprediction.sentimentanalyzer import getCommentSentiment
 
 def loadData():
     
