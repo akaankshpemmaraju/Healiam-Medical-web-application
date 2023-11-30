@@ -12,7 +12,11 @@ class DrugReviewModel(Model):
     sentiment=models.CharField(max_length=50)
     def __str__(self):
         return self.drugname
-
+"""
+This model could be used to represent patient information in a Django application,
+where each instance of the model corresponds to a specific patient with associated
+information such as the patient's name, mobile number, and prescribed drug.
+"""
 class PatientModel(Model):
 
     name=models.CharField(max_length=50)
