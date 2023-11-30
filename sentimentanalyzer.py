@@ -14,7 +14,7 @@ def getCommentSentiment(cmnt):
     using textblob's sentiment method
     this helps in reducing complexity
     '''
-    # creating TextBlob object of passed tweet text.
+    # creating TextBlob object of passed tweet text
     analysis = TextBlob(cleanComment(cmnt))
     # set sentiment on the required analytics
     if analysis.sentiment.polarity > 0:
