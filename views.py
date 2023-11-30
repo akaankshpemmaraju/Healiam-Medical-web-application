@@ -14,7 +14,7 @@ def adddrug(request):
     
     if request.method == "POST":
         # Get the posted form
-        patientForm = PatientForm(request.POST),
+        patientForm = PatientForm(request.POST)
 
         if patientForm.is_valid():
 
