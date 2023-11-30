@@ -6,4 +6,5 @@ admin.site.register(PatientDetails)
 #reviews of drugs.
 admin.site.register(DrugReviewModel)
 admin.site.register(DrugFinalModel)
+
 #this is admin python files.
