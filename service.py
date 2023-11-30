@@ -6,7 +6,7 @@ from drugprediction.sentimentanalyzer import getCommentSentiment
 def loadData():
     
     #DrugReviewModel.objects.all().delete()
-# To be able to add services.
+# To be able to add the services.
     with open(file=''C:\\Users\\tejitha reddy\\PycharmProjects\\DrugPredictionBasedOnSentimentAnalysisOfReviews\\dataset\\drugsComTrain_raw.csv',mode='r',encoding="utf8") as file:
         reader = csv.reader(file)
         for row in reader:
