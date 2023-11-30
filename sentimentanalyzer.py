@@ -12,7 +12,7 @@ def getCommentSentiment(cmnt):
     '''
     Utility function to classify sentiment of passed tweets
     using textblob's sentiment method
-    this helps in reducing the complexity
+    this helps in reducing complexity
     '''
     # creating TextBlob object of passed tweet text.
     analysis = TextBlob(cleanComment(cmnt))
